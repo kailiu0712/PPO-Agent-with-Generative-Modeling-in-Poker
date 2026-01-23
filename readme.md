@@ -1,5 +1,7 @@
 # Two-Stage PPO with Opponent Modeling for Leduc Hold’em
 
+Contributors: Kaihe Liu, Chenyu Li
+
 This repository implements a **two-stage Proximal Policy Optimization (PPO)** framework for **Leduc Hold’em**, using the PettingZoo environment.
 In **Stage 2**, the agent is augmented with a **learned opponent model** that predicts the opponent’s next action and incorporates this prediction into the policy input.
 
@@ -169,13 +171,6 @@ Plots are saved under `results/`.
 * PettingZoo team for the Leduc Hold’em environment
 * OpenAI PPO formulation
 * Farama Foundation ecosystem
-
----
-
-## License
-
-This project is provided for **research and educational use**.
-Add a license file if you plan to redistribute or publish.
 
 ---
 
